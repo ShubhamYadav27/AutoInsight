@@ -7,7 +7,7 @@ A full-stack web application that helps first-time used car buyers make informed
 ## 🗂 Project Structure
 
 ```
-autoinsight/
+AutoInsight/
 ├── backend/                  # Node.js + Express REST API
 │   ├── server.js             # Main Express server
 │   ├── routes/
