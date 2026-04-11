@@ -1,0 +1,154 @@
+[
+  {
+    "id": "sample_001",
+    "carInfo": {
+      "make": "Maruti Suzuki",
+      "model": "Swift",
+      "year": 2018,
+      "kmDriven": 78000,
+      "fuelType": "Petrol",
+      "askingPrice": 520000,
+      "owners": 1
+    },
+    "knownIssues": ["Tyre worn"],
+    "hasServiceBook": true,
+    "expectedResult": {
+      "conditionScore": 72,
+      "recommendation": "BUY",
+      "estimatedMaintenanceCost": 22000
+    }
+  },
+  {
+    "id": "sample_002",
+    "carInfo": {
+      "make": "Hyundai",
+      "model": "Creta",
+      "year": 2019,
+      "kmDriven": 62000,
+      "fuelType": "Diesel",
+      "askingPrice": 980000,
+      "owners": 2
+    },
+    "knownIssues": ["AC not cooling"],
+    "hasServiceBook": true,
+    "expectedResult": {
+      "conditionScore": 68,
+      "recommendation": "NEGOTIATE",
+      "estimatedMaintenanceCost": 32000
+    }
+  },
+  {
+    "id": "sample_003",
+    "carInfo": {
+      "make": "Honda",
+      "model": "City",
+      "year": 2016,
+      "kmDriven": 115000,
+      "fuelType": "Petrol",
+      "askingPrice": 620000,
+      "owners": 3
+    },
+    "knownIssues": ["Engine noise", "Suspension issue", "AC not cooling"],
+    "hasServiceBook": false,
+    "expectedResult": {
+      "conditionScore": 38,
+      "recommendation": "AVOID",
+      "estimatedMaintenanceCost": 65000
+    }
+  },
+  {
+    "id": "sample_004",
+    "carInfo": {
+      "make": "Toyota",
+      "model": "Innova Crysta",
+      "year": 2021,
+      "kmDriven": 35000,
+      "fuelType": "Diesel",
+      "askingPrice": 1850000,
+      "owners": 1
+    },
+    "knownIssues": [],
+    "hasServiceBook": true,
+    "expectedResult": {
+      "conditionScore": 88,
+      "recommendation": "BUY",
+      "estimatedMaintenanceCost": 18000
+    }
+  },
+  {
+    "id": "sample_005",
+    "carInfo": {
+      "make": "Tata",
+      "model": "Nexon EV",
+      "year": 2022,
+      "kmDriven": 28000,
+      "fuelType": "Electric",
+      "askingPrice": 1350000,
+      "owners": 1
+    },
+    "knownIssues": ["Battery issues"],
+    "hasServiceBook": true,
+    "expectedResult": {
+      "conditionScore": 74,
+      "recommendation": "NEGOTIATE",
+      "estimatedMaintenanceCost": 12000
+    }
+  },
+  {
+    "id": "sample_006",
+    "carInfo": {
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2017,
+      "kmDriven": 92000,
+      "fuelType": "Petrol",
+      "askingPrice": 2200000,
+      "owners": 2
+    },
+    "knownIssues": ["Oil leak", "Suspension issue"],
+    "hasServiceBook": false,
+    "expectedResult": {
+      "conditionScore": 42,
+      "recommendation": "AVOID",
+      "estimatedMaintenanceCost": 120000
+    }
+  },
+  {
+    "id": "sample_007",
+    "carInfo": {
+      "make": "Kia",
+      "model": "Seltos",
+      "year": 2020,
+      "kmDriven": 45000,
+      "fuelType": "Petrol",
+      "askingPrice": 1050000,
+      "owners": 1
+    },
+    "knownIssues": [],
+    "hasServiceBook": true,
+    "expectedResult": {
+      "conditionScore": 82,
+      "recommendation": "BUY",
+      "estimatedMaintenanceCost": 20000
+    }
+  },
+  {
+    "id": "sample_008",
+    "carInfo": {
+      "make": "Mahindra",
+      "model": "Scorpio",
+      "year": 2015,
+      "kmDriven": 130000,
+      "fuelType": "Diesel",
+      "askingPrice": 720000,
+      "owners": 3
+    },
+    "knownIssues": ["Gear slipping", "Rust spots", "Brake worn"],
+    "hasServiceBook": false,
+    "expectedResult": {
+      "conditionScore": 28,
+      "recommendation": "AVOID",
+      "estimatedMaintenanceCost": 85000
+    }
+  }
+]
