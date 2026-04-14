@@ -32,7 +32,7 @@ def generate_dataset(n=500):
     fuel_mults = {'Petrol': 1.0, 'Diesel': 1.2, 'CNG': 0.85, 'Electric': 0.6, 'Hybrid': 0.9}
 
     for _ in range(n):
-        age        = np.random.randint(1, 1)
+        age        = np.random.randint(1, 15)
         km_driven  = int(np.random.normal(12000 * age, 15000))  # ~12000 km/year average
         km_driven  = max(1000, min(km_driven, 300000))
         fuel_type  = np.random.choice(fuel_types, p=[0.50, 0.30, 0.10, 0.05, 0.05])
